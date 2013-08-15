@@ -1,0 +1,19 @@
+{
+  "name": "node.LLioctl",
+  "version": "0.0.1",
+  "author": "Andreas Fuchs <anduchs@gmail.com>",
+  "description": "Low-Level bindings for accessing ioctls",
+  "license": "LGPL",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anduchs/node.LLioctl.git"
+  },
+  "homepage": "http://github.com/anduchs/node.LLioctl",
+  "main": "LLioctl.node",
+  "keywords": [
+    "ioctl",
+    "linux",
+    "low-level"
+  ]
+}
