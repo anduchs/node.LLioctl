@@ -1,7 +1,0 @@
-#!/usr/bin/node
-
-var fs = require("fs");
-var LLioctl = require('./build/Release/LLioctl');
-
-var file = fs.openSync("/dev/uinput", "r")
-LLioctl.LLioctl(file,1,1)

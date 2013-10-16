@@ -1,19 +1,22 @@
 {
-  "name": "node.LLioctl",
-  "version": "0.0.1",
+  "name": "LLioctl",
+  "version": "0.1.0",
   "author": "Andreas Fuchs <anduchs@gmail.com>",
-  "description": "Low-Level bindings for accessing ioctls",
-  "license": "LGPL",
+  "description": "Low-Level bindings for accessing ioctls. WARNING: Take good care of endianess in struct-buffers passed to ioctl...",
+  "license": "LGPLv3",
   "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/anduchs/node.LLioctl.git"
-  },
   "homepage": "http://github.com/anduchs/node.LLioctl",
-  "main": "LLioctl.node",
   "keywords": [
     "ioctl",
+    "io control",
     "linux",
     "low-level"
-  ]
+  ],
+  "main": "LLioctl.js",
+  "dependencies": {
+    "node-gyp": "0.9"
+  },
+  "scripts": {
+        "install": "node-gyp rebuild"
+  }
 }
